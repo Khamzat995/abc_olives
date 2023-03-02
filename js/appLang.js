@@ -442,11 +442,6 @@ const langArr = {
         "tr": "Extra Virgin",
         "en": "Extra Virgin",
     },
-    /* "_": {
-        "ru": "_",
-        "tr": "_",
-        "en": "_",
-    }, */
     "lian": {
         "ru": "*Хранить в сухом прохладном месте. После вскрытия упаковки продукт хранить в холодильнике.",
         "tr": "*Serin, kuru bir yerde saklayın. Paketi açtıktan sonra ürünü muhafaza ediniz buzdolabı.",
@@ -563,6 +558,5 @@ const langArr = {
         "ru": "Все права защищены",
         "tr": "Her hakkı saklıdır",
         "en": "All rights reserved",
-    },
-
+    }
 }
