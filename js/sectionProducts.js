@@ -17,7 +17,7 @@ for (let i of products) {
     let pull = document.createElement('img')
     pull.classList.add('pull-left');
     pull.setAttribute('src', i.image);
-    pull.setAttribute("alt", "картинка");
+    pull.setAttribute("alt", "picture");
     pull.setAttribute("width", "125px");
     pull.setAttribute("height", "auto");
     sp.appendChild(pull);

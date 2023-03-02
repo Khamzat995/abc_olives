@@ -171,25 +171,286 @@ const langArr = {
     /*Product discription  finish*/
 
     /* product modal */
-    "_": {
-        "ru": "_",
-        "tr": "_",
-        "en": "_",
+
+    "modal-tt-1": {
+        "ru": "Оливки натуральные с косточкой.",
+        "tr": "Çekirdekli doğal zeytin.",
+        "en": "Olives natural with a stone.",
     },
-    "_": {
-        "ru": "_",
-        "tr": "_",
-        "en": "_",
+    "modal-tt-2": {
+        "ru": "Оливки зеленые, пряные с перцем.",
+        "tr": "Biberli baharatlı yeşil zeytin.",
+        "en": "Green olives, spicy with pepper.",
     },
-    "_": {
-        "ru": "_",
-        "tr": "_",
-        "en": "_",
+    "modal-tt-3": {
+        "ru": "Маслины натуральные, без косточки.",
+        "tr": "Zeytin doğaldır, çekirdeksizdir.",
+        "en": "Olives are natural, pitted.",
     },
-    "_": {
+    "modal-tt-4": {
+        "ru": "Зеленые оливки, с косточкой.",
+        "tr": "Çekirdeksiz yeşil zeytin.",
+        "en": "Green olives, pitted.",
+    },
+    "modal-tt-5": {
+        "ru": "Оливковое масло, рафинированное.",
+        "tr": "Zeytinyağı, rafine.",
+        "en": "Olive oil, refined.",
+    },
+    "modal-tt-6": {
+        "ru": "Оливковое масло Extra Virgin.",
+        "tr": "Sızma zeytinyağı.",
+        "en": "Extra virgin olive oil.",
+    },
+    "ves": {
+        "ru": "Вес:",
+        "tr": "Ağırlık:",
+        "en": "Weight:",
+    },
+    "gram": {
+        "ru": " гр.",
+        "tr": " gr.",
+        "en": " g.",
+    },
+    "litrov": {
+        "ru": "литров",
+        "tr": "litre",
+        "en": "liters",
+    },
+    "litra": {
+        "ru": "литра",
+        "tr": "litre",
+        "en": "liters",
+    },
+    "sostav": {
+        "ru": "Состав:",
+        "tr": "Compound:",
+        "en": "Birleştirmek:",
+    },
+    "sostav-1": {
+        "ru": " оливки, вода, соль, винный уксус, оливковое масло Экстра Вирджин.",
+        "tr": " zeytin, su, tuz, şarap sirkesi, sızma zeytinyağı.",
+        "en": " olives, water, salt, wine vinegar, extra virgin olive oil.",
+    },
+    "sostav-2": {
+        "ru": " оливки, вода, соль, винный уксус, оливковое масло Экстра Вирджин.",
+        "tr": " zeytin, su, tuz, şarap sirkesi, sızma zeytinyağı.",
+        "en": " olives, water, salt, wine vinegar, extra virgin olive oil.",
+    },
+    "sostav-3": {
+        "ru": " оливки, вода, соль, глюконат железа (Е579).",
+        "tr": " zeytin, su, tuz, demirli glukonat (E579).",
+        "en": " olives, water, salt, ferrous gluconate (E579).",
+    },
+    "sostav-4": {
+        "ru": "оливки, вода, соль, глюконат железа (Е579).",
+        "tr": "zeytin, su, tuz, demirli glukonat (E579).",
+        "en": "olives, water, salt, ferrous gluconate (E579).",
+    },
+    "sostav-5": {
+        "ru": " оливковое масло, вода, соль, винный уксус.",
+        "tr": " zeytinyağı, su, tuz, şarap sirkesi.",
+        "en": " olive oil, water, salt, wine vinegar.",
+    },
+    "sostav-6": {
+        "ru": " оливковое масло, вода, соль, винный уксус.",
+        "tr": " zeytinyağı, su, tuz, şarap sirkesi.",
+        "en": " olive oil, water, salt, wine vinegar.",
+    },
+    "cennost": {
+        "ru": "Пищевая ценность",
+        "tr": "Besin değeri",
+        "en": "The nutritional value",
+    },
+    "cennost-1": {
+        "ru": " на 100 гp. продукта: белки – 1,9, углеводы – 0, 0, жиры – 27, 0.",
+        "tr": " 100 g. ürün başına: proteinler - 1.9, karbonhidratlar - 0.0, yağlar - 27.0.",
+        "en": " per 100 g. of product: proteins - 1.9, carbohydrates - 0.0, fats - 27.0.",
+    },
+    "cennost-2": {
+        "ru": " на 100 гp. продукта: белки – 1,7, углеводы – 0, 0, жиры – 25, 0.",
+        "tr": " 100 g. ürün başına: proteinler - 1.7, karbonhidratlar - 0.0, yağlar - 25.0.",
+        "en": " per 100 g. of product: proteins - 1.7, carbohydrates - 0.0, fats - 25.0.",
+    },
+    "cennost-3": {
+        "ru": " на 100 гp. продукта: белки – 1,8, углеводы – 0, 0, жиры – 24, 0.",
+        "tr": " 100 g. ürün başına: proteinler - 1.8, karbonhidratlar - 0.0, yağlar - 24.0.",
+        "en": " per 100 g. of product: proteins - 1.8, carbohydrates - 0.0, fats - 24.0.",
+    },
+    "cennost-4": {
+        "ru": " на 100 гp. продукта: белки – 1,8, углеводы – 0, 0, жиры – 24, 0.",
+        "tr": " 100 g. ürün başına: proteinler - 1.8, karbonhidratlar - 0.0, yağlar - 24.0.",
+        "en": " per 100 g. of product: proteins - 1.8, carbohydrates - 0.0, fats - 24.0.",
+    },
+    "cennost-5": {
+        "ru": " на 100 гp. продукта: белки – 1,7, углеводы – 0, 0, жиры – 26, 0.",
+        "tr": " 100 g. ürün başına: proteinler - 1.7, karbonhidratlar - 0.0, yağlar - 26.0.",
+        "en": " per 100 g. of product: proteins - 1.7, carbohydrates - 0.0, fats - 26.0.",
+    },
+    "cennost-6_": {
+        "ru": " на 100 гp. продукта: белки – 1,7, углеводы – 0, 0, жиры – 26, 0.",
+        "tr": " 100 g. ürün başına: proteinler - 1.7, karbonhidratlar - 0.0, yağlar - 26.0.",
+        "en": " per 100 g. of product: proteins - 1.7, carbohydrates - 0.0, fats - 26.0.",
+    },
+    "energi": {
+        "ru": "Энергетическая ценность: ",
+        "tr": "Enerji değeri: ",
+        "en": "Energy value: ",
+    },
+    "energi-1": {
+        "ru": "1078 кДж / 262 Ккал.",
+        "tr": "1078 kJ / 262 kcal.",
+        "en": "1078 kJ / 262 kcal.",
+    },
+    "energi-2": {
+        "ru": "1079 кДж / 269 Ккал.",
+        "tr": "1079 kJ / 269 kcal.",
+        "en": "1079 kJ / 269 kcal.",
+    },
+    "energi-3": {
+        "ru": "1055 кДж / 244 Ккал.",
+        "tr": "1055 kJ / 244 kcal.",
+        "en": "1055 kJ / 244 kcal.",
+    },
+    "energi-4": {
+        "ru": "1055 кДж / 244 Ккал.",
+        "tr": "1055 kJ / 244 kcal.",
+        "en": "1055 kJ / 244 kcal.",
+    },
+    "energi-5": {
+        "ru": "1092 кДж / 275 Ккал.",
+        "tr": "1092 kJ / 275 kcal.",
+        "en": "1092 kJ / 275 kcal.",
+    },
+    "energi-6": {
+        "ru": "1092 кДж / 275 Ккал.",
+        "tr": "1092 kJ / 275 kcal.",
+        "en": "1092 kJ / 275 kcal.",
+    },
+    "tara": {
+        "ru": "Упаковка: ",
+        "tr": "Paket: ",
+        "en": "Package: ",
+    },
+    "tara-1": {
+        "ru": "вакуумный пакет",
+        "tr": "vakum paketi",
+        "en": "vakum paketi",
+    },
+    "tara-2": {
+        "ru": "жестяная банка",
+        "tr": "olabilmek",
+        "en": "can",
+    },
+    "tara-3": {
+        "ru": "жестяная тара",
+        "tr": "teneke kaplar",
+        "en": "tin containers",
+    },
+    "srok": {
+        "ru": "Срок годности: ",
+        "tr": "Son kullanma tarihi: ",
+        "en": "Best before date: ",
+    },
+    "srok-a": {
+        "ru": " месяца",
+        "tr": " ay",
+        "en": " months",
+    },
+    "srok-b": {
+        "ru": " месяцев",
+        "tr": " ay",
+        "en": " months",
+    },
+    "manufacturer": {
+        "ru": "Производитель: ",
+        "tr": "Üretici firma: ",
+        "en": "Manufacturer: ",
+    },
+    "manufac-1": {
+        "ru": " (Турция)",
+        "tr": " (Türkiye)",
+        "en": " (Turkey)",
+    },
+    "price-title-1": {
+        "ru": "Оливки",
+        "tr": "Zeytin",
+        "en": "Olives",
+    },
+    "price-title-2": {
+        "ru": "Оливковое масло",
+        "tr": "Zeytin yağı",
+        "en": "Olive oil",
+    },
+    "price-td": {
+        "ru": "Наименование:",
+        "tr": "İsim:",
+        "en": "Name:",
+    },
+    "price-pr": {
+        "ru": "Цена:",
+        "tr": "Fiyat:",
+        "en": "Price:",
+    },
+    "tara-vk": {
+        "ru": "вакуум",
+        "tr": "vakum",
+        "en": "vacuum",
+    },
+    "tara-mt": {
+        "ru": "метал",
+        "tr": "metal",
+        "en": "metal",
+    },
+    "td-span-1": {
+        "ru": "натуральные с косточкой",
+        "tr": "kemikli doğal",
+        "en": "natural with bone",
+    },
+    "td-span-2": {
+        "ru": "зеленые, пряные с перцем",
+        "tr": "yeşil, biberli baharatlı",
+        "en": "green, spicy with pepper",
+    },
+    "td-span-3": {
+        "ru": "натуральные без косточки",
+        "tr": "doğal çekirdeksiz",
+        "en": "natural pitted",
+    },
+    "td-span-4": {
+        "ru": "зеленые с косточкой",
+        "tr": "kemikli yeşil",
+        "en": "green with bone",
+    },
+    "type-oil-1": {
+        "ru": "рафинированное",
+        "tr": "rafine",
+        "en": "refined",
+    },
+    "type-oil-2": {
+        "ru": "не рафинированное",
+        "tr": "rafine değil",
+        "en": "not refined",
+    },
+    "type-oil-3": {
+        "ru": "Extra",
+        "tr": "Extra",
+        "en": "Extra",
+    },
+    "type-oil-4": {
+        "ru": "Extra Virgin",
+        "tr": "Extra Virgin",
+        "en": "Extra Virgin",
+    },
+    /* "_": {
         "ru": "_",
         "tr": "_",
         "en": "_",
+    }, */
+    "lian": {
+        "ru": "*Хранить в сухом прохладном месте. После вскрытия упаковки продукт хранить в холодильнике.",
+        "tr": "*Serin, kuru bir yerde saklayın. Paketi açtıktan sonra ürünü muhafaza ediniz buzdolabı.",
+        "en": "*Store in a cool dry place. After opening the package, store the product in refrigerator.",
     },
     /* product modal finish */
 
