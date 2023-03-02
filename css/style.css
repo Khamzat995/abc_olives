@@ -715,6 +715,8 @@ a:focus {
 /*  ----------------------------------------------------
 5. OUR STORY SECTIONS
 -------------------------------------------------------- */
+
+
 .our-story {
     background-repeat: no-repeat;
     background-position: bottom left;
@@ -723,6 +725,10 @@ a:focus {
 
 .our-story-content .buttons {
     margin-top: 45px;
+}
+
+.sp-menu-content a {
+    width: 100%;
 }
 
 .sp-menu-content a p {
@@ -1394,6 +1400,10 @@ a.buttons.read-more-button:hover {
 
 .footer-area p {
     margin-bottom: 0px;
+}
+
+.lng-footer {
+    color: #f0d43a
 }
 
 /*  ----------------------------------------------------

@@ -1,3 +1,5 @@
+const lang = select.value;
+
 for (let i of products) {
     const bigBox = document.getElementById("rowContiner");
     let box = document.createElement("div");
@@ -44,11 +46,10 @@ for (let i of products) {
     spName.append(spNameH, spNameSpan)
 
     let boxDiskr = document.createElement('p');
-    boxDiskr.className = i.discr;
-    /* boxDiskr.textContent = i.discr; */
+    boxDiskr.textContent = langArr[i.discr][lang];
 
-    let spanBox = document.createElement('span')
-    spanBox.className = 'lng-span-box';
+    let spanBox = document.createElement('span')/* этот момент посмотреть */
+    spanBox.textContent = langArr[i.btn][lang];
 
     boxDiskr.append(spanBox);
 

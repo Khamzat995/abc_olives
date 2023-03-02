@@ -132,9 +132,9 @@ const langArr = {
         "en": "catalog",
     },
     "span-box": {
-        "ru": "подробности",
-        "tr": "detaylar",
-        "en": "details",
+        "ru": "Подробности ",
+        "tr": "Detaylar ",
+        "en": "Details ",
     },
 
     /*Product discription  */
@@ -169,6 +169,30 @@ const langArr = {
         "en": "Olive oil Extra Virgin, metal 3 liters...",
     },
     /*Product discription  finish*/
+
+    /* product modal */
+    "_": {
+        "ru": "_",
+        "tr": "_",
+        "en": "_",
+    },
+    "_": {
+        "ru": "_",
+        "tr": "_",
+        "en": "_",
+    },
+    "_": {
+        "ru": "_",
+        "tr": "_",
+        "en": "_",
+    },
+    "_": {
+        "ru": "_",
+        "tr": "_",
+        "en": "_",
+    },
+    /* product modal finish */
+
     "price-btn": {
         "ru": "Смотреть прайс-лист",
         "tr": "Fiyat listesine bakın",
