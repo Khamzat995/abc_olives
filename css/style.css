@@ -468,6 +468,47 @@ a:focus {
     }
 }
 
+/* ЗВОНОК-2 АНИМАЦИЯ ФИНИШ*/
+#zvonokWhat {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 4s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 50% 50%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+    /* font-size: 20px; */
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0.0deg)
+    }
+
+    10% {
+        transform: rotate(14.0deg)
+    }
+
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8.0deg)
+    }
+
+    30% {
+        transform: rotate(14.0deg)
+    }
+
+    40% {
+        transform: rotate(-4.0deg)
+    }
+
+    50% {
+        transform: rotate(10.0deg)
+    }
+}
+
 /* ЗВОНОК АНИМАЦИЯ ФИНИШ*/
 
 #anima-text {
@@ -609,6 +650,59 @@ a:focus {
     background: #f0d43a;
 }
 
+/* background video */
+.video-container {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    /* padding-top: 25%; */
+}
+
+.video-container .container {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    padding-top: 100px;
+
+}
+
+.video-container video {
+    margin-top: 90px;
+    display: inline-block;
+    vertical-align: baseline;
+    width: 100%;
+    position: absolute;
+}
+
+.video-container .container p {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: none;
+    color: #f0d43a;
+    font-family: 'Nothing You Could Do', cursive;
+    height: auto;
+    padding-top: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+/* background video */
+
+/* кнопка вызова */
+.fixedbut {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: block;
+    z-index: 100;
+}
+
+
 /*  ----------------------------------------------------
 4. HERO SECTIONS
 -------------------------------------------------------- */
@@ -628,12 +722,9 @@ a:focus {
     top: 0;
 }
 
-
-
 .hero-logo {
     margin-bottom: 40px;
     display: inline-block;
-
 }
 
 .intro {
@@ -644,6 +735,8 @@ a:focus {
 
 .hero .buttons {
     margin-top: 45px;
+    width: 200px;
+    text-align: center;
 }
 
 /* - 4-1 VIDEO BACKGROUND */
@@ -733,6 +826,10 @@ a:focus {
 
 .sp-menu-content a p {
     color: #e7e8e8;
+}
+
+.fa-eye {
+    font-size: large;
 }
 
 #storyModal h3 {
@@ -1259,6 +1356,36 @@ a.buttons.read-more-button:hover {
     border-radius: 50%;
 }
 
+.social-icons ul li a i {
+    font-size: x-large;
+    margin-top: 5px;
+}
+
+.group-one {
+    margin-top: 5px;
+}
+
+.fa-whatsapp {
+    color: #43d854;
+}
+
+.fa-telegram {
+    color: #3399ff;
+
+}
+
+.fa-facebook {
+    color: #0077b5;
+
+
+}
+
+.fa-instagram {
+    color: #ef4056;
+
+}
+
+
 .bg-dark .social-icons ul li a {
     background: #232323;
 }
@@ -1384,6 +1511,14 @@ a.buttons.read-more-button:hover {
 
 .single-contact-widget a {
     color: #e7e8e8
+}
+
+.single-contact-widget a i {
+    font-size: large;
+}
+
+.single-contact-widget a span {
+    font-size: large;
 }
 
 /*  ----------------------------------------------------

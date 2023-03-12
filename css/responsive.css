@@ -4,6 +4,14 @@
 		font-size: 28px;
 	}
 
+	.video-container video {
+		width: 1199px;
+	}
+
+	.video-container .container {
+		margin-top: 15%;
+	}
+
 	/* SPECIAL MENU */
 	.sp-menu-content {
 		padding: 15px;
@@ -38,6 +46,9 @@
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 990px) {
+	.video-container video {
+		width: 990px;
+	}
 
 	/* HERO SECTION */
 	.hero-logo {
@@ -52,8 +63,8 @@
 		font-size: 30px;
 	}
 
-	.hero .buttons {
-		margin-top: 25px;
+	.video-container .container {
+		margin-top: 20%;
 	}
 
 	.fullscreen-slider.owl-theme .owl-controls {
@@ -132,6 +143,14 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+	.video-container video {
+		width: 767px;
+	}
+
+	.video-container .container {
+		margin-top: 20%;
+	}
+
 
 	/* GENERAL */
 	h1 {
@@ -224,12 +243,11 @@
 	}
 
 	.intro {
-		font-size: 35px
+		font-size: 35px;
+		text-align: center;
 	}
 
-	.hero .buttons {
-		margin-top: 30px;
-	}
+
 
 	.fullscreen-slider.owl-theme .owl-controls {
 		position: absolute;
@@ -385,6 +403,12 @@
 
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+	.video-container video {
+		min-width: 480px;
+		max-width: 767px;
+	}
+
+
 
 	/* SPECIAL MENU */
 	.sp-menu-thumb {
@@ -402,6 +426,10 @@
 	.single-chef {
 		flex-direction: column;
 	}
+}
 
-
+@media only screen and (max-width: 480px) {
+	.video-container .container {
+		margin-top: 30%;
+	}
 }

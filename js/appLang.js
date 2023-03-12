@@ -61,6 +61,7 @@ const langArr = {
         "tr": "toptan fiyatlar, hızlı teslimat",
         "en": "wholesale prices, fast delivery",
     },
+
     "slider-btn": {
         "ru": "смотреть",
         "tr": "bakmak",
@@ -72,9 +73,9 @@ const langArr = {
         "en": "our advantages",
     },
     "marka": {
-        "ru": "Торговая марка Olives Turkey — эксперт вкуса и качества оливкового масла. Мы производим оливки и оливковое масло высшего сорта, премиум-класса и поставляем нашим клиентам в Турции, ближнем Востоке и странам Европы и Азии",
-        "tr": "Olives Turkey markası, zeytinyağının tadı ve kalitesi konusunda uzmandır. Birinci sınıf, birinci sınıf zeytin ve zeytinyağı üretiyoruz ve Türkiye, Orta Doğu ve Avrupa ve Asya'daki müşterilerimize tedarik ediyoruz.",
-        "en": "The Olives Turkey brand is an expert in the taste and quality of olive oil. We produce olives and olive oil of the highest grade, premium class and supply to our customers in Turkey, the Middle East and countries in Europe and Asia",
+        "ru": "Торговая марка 'Olives Turkey' — эксперт вкуса и качества оливкового масла. Мы производим оливки и оливковое масло высшего сорта, премиум-класса и поставляем нашим клиентам в Турции, ближнем Востоке и странам Европы и Азии",
+        "tr": "'Olives Turkey' markası, zeytinyağının tadı ve kalitesi konusunda uzmandır. Birinci sınıf, birinci sınıf zeytin ve zeytinyağı üretiyoruz ve Türkiye, Orta Doğu ve Avrupa ve Asya'daki müşterilerimize tedarik ediyoruz.",
+        "en": "The 'Olives Turkey' brand is an expert in the taste and quality of olive oil. We produce olives and olive oil of the highest grade, premium class and supply to our customers in Turkey, the Middle East and countries in Europe and Asia",
     },
     "marka-btn": {
         "ru": "cмотреть подробности",
@@ -87,19 +88,19 @@ const langArr = {
         "en": "Premium quality",
     },
     "modal-p1": {
-        "ru": "Кампания Olives Turkey основана в 2010 году и является эксклюзивным производителем и поставщиком оливок и оливкового масла на территории Турции, ближнего Востока, стран Европы и Азии.Мы поставляем крупные и мелкие партии оливкового масла и оливок нашей торговой марки Olives Turkey, крупнейшего производителя оливкового масла в Турции.",
-        "tr": "Olives Turkey 2010 yılında kurulmuştur ve Türkiye, Orta Doğu, Avrupa ve Asya'nın tek zeytin ve zeytinyağı üreticisi ve tedarikçisidir. Türkiye'nin en büyük zeytinyağı üreticisi Olives Turkey markamızla büyük ve küçük miktarlarda zeytinyağı ve zeytin tedarik ediyoruz.",
-        "en": "Olives Turkey was founded in 2010 and is the exclusive producer and supplier of olives and olive oil in Turkey, the Middle East, Europe and Asia. We supply large and small batches of olive oil and olives of our brand Olives Turkey, the largest producer of olive oil in Turkey.",
+        "ru": "Кампания 'Olives Turkey' основана в 2010 году и является эксклюзивным производителем и поставщиком оливок и оливкового масла на территории Турции, ближнего Востока, стран Европы и Азии.Мы поставляем крупные и мелкие партии оливкового масла и оливок нашей торговой марки 'Olives Turkey', крупнейшего производителя оливкового масла в Турции.",
+        "tr": "'Olives Turkey' 2010 yılında kurulmuştur ve Türkiye, Orta Doğu, Avrupa ve Asya'nın tek zeytin ve zeytinyağı üreticisi ve tedarikçisidir. Türkiye'nin en büyük zeytinyağı üreticisi 'Olives Turkey' markamızla büyük ve küçük miktarlarda zeytinyağı ve zeytin tedarik ediyoruz.",
+        "en": "'Olives Turkey' was founded in 2010 and is the exclusive producer and supplier of olives and olive oil in Turkey, the Middle East, Europe and Asia. We supply large and small batches of olive oil and olives of our brand 'Olives Turkey', the largest producer of olive oil in Turkey.",
     },
     "modal-p2": {
-        "ru": "Тщательный уход при выращивании оливок, сбор на точно определенной степени созревания, оптимальные условия переработки – все это гарантирует высшее качество оливкового масла. Olives Turkey надежный поставщик турецкой продукции по всему миру. Весь производственный цикл проходит в строгом соответствии с мировыми стандартами.",
-        "tr": "Zeytin yetiştiriciliğinde dikkatli bakım, kesin olarak tanımlanmış bir olgunlaşma derecesinde hasat, optimum işleme koşulları - tüm bunlar en yüksek zeytinyağı kalitesini garanti eder. Olives Turkey, Türk ürünlerinin dünya çapında güvenilir bir tedarikçisidir. Tüm üretim döngüsü, uluslararası standartlara sıkı sıkıya bağlı olarak gerçekleşir.",
-        "en": "Careful care in the cultivation of olives, harvesting at a precisely defined degree of maturation, optimal processing conditions - all this guarantees the highest quality of olive oil. Olives Turkey is a reliable supplier of Turkish products worldwide. The entire production cycle takes place in strict accordance with international standards.",
+        "ru": "Тщательный уход при выращивании оливок, сбор на точно определенной степени созревания, оптимальные условия переработки – все это гарантирует высшее качество оливкового масла. 'Olives Turkey' надежный поставщик турецкой продукции по всему миру. Весь производственный цикл проходит в строгом соответствии с мировыми стандартами.",
+        "tr": "Zeytin yetiştiriciliğinde dikkatli bakım, kesin olarak tanımlanmış bir olgunlaşma derecesinde hasat, optimum işleme koşulları - tüm bunlar en yüksek zeytinyağı kalitesini garanti eder. 'Olives Turkey', Türk ürünlerinin dünya çapında güvenilir bir tedarikçisidir. Tüm üretim döngüsü, uluslararası standartlara sıkı sıkıya bağlı olarak gerçekleşir.",
+        "en": "Careful care in the cultivation of olives, harvesting at a precisely defined degree of maturation, optimal processing conditions - all this guarantees the highest quality of olive oil. 'Olives Turkey' is a reliable supplier of Turkish products worldwide. The entire production cycle takes place in strict accordance with international standards.",
     },
     "modal-p3": {
-        "ru": "С продукцией Olives Turkey вы получаете оливки и оливковое масло высшего качества, выращенное, собранное, отжатое и разлитое на юго-востоке Турции. Мы лично следим за каждой стадией производства, отслеживаем каждую партию до ее источника, гарантируем лучшее качество и вкус продукции.",
-        "tr": "Olives Turkey ürünleri ile Türkiye'nin güneydoğusunda yetişen, hasat edilen, preslenen ve şişelenen en kaliteli zeytin ve zeytinyağını elde edersiniz. Üretimin her aşamasını bizzat izliyor, her partiyi kaynağına kadar takip ediyor, ürünlerin en iyi kalite ve lezzetini garanti ediyoruz.",
-        "en": "With Olives Turkey products, you get the highest quality olives and olive oil grown, harvested, pressed and bottled in the southeast of Turkey. We personally monitor every stage of production, trace each batch to its source, guarantee the best quality and taste of products.",
+        "ru": "С продукцией 'Olives Turkey' вы получаете оливки и оливковое масло высшего качества, выращенное, собранное, отжатое и разлитое на юго-востоке Турции. Мы лично следим за каждой стадией производства, отслеживаем каждую партию до ее источника, гарантируем лучшее качество и вкус продукции.",
+        "tr": "'Olives Turkey' ürünleri ile Türkiye'nin güneydoğusunda yetişen, hasat edilen, preslenen ve şişelenen en kaliteli zeytin ve zeytinyağını elde edersiniz. Üretimin her aşamasını bizzat izliyor, her partiyi kaynağına kadar takip ediyor, ürünlerin en iyi kalite ve lezzetini garanti ediyoruz.",
+        "en": "With 'Olives Turkey' products, you get the highest quality olives and olive oil grown, harvested, pressed and bottled in the southeast of Turkey. We personally monitor every stage of production, trace each batch to its source, guarantee the best quality and taste of products.",
     },
     "offer": {
         "ru": "почему выбирают нас",
