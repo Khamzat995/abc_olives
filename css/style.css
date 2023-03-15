@@ -1009,6 +1009,11 @@ a:focus {
     margin-bottom: 15px;
 }
 
+.single-special-menu a {
+    width: 100%;
+
+}
+
 .bg-black .single-special-menu {
     background: #222222;
 }
@@ -1068,6 +1073,12 @@ a:focus {
 
 .sp-menu-content p {
     margin-bottom: 0px;
+    color: white;
+}
+
+.row-continer {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /*  ----------------------------------------------------

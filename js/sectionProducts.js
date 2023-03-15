@@ -10,9 +10,15 @@ for (let i of products) {
     single.setAttribute('data-wow-delay', ".1s");
     box.appendChild(single);
 
+    let hrefOne = document.createElement('a');
+    hrefOne.setAttribute('href', "#");
+    hrefOne.setAttribute('data-toggle', "modal");
+    hrefOne.setAttribute('data-target', i.target);
+    single.appendChild(hrefOne);
+
     let sp = document.createElement('div');
     sp.className = "sp-menu-thumb";
-    single.appendChild(sp);
+    hrefOne.appendChild(sp);
 
     let pull = document.createElement('img')
     pull.classList.add('pull-left');
@@ -24,17 +30,11 @@ for (let i of products) {
 
     let boxContent = document.createElement('div');
     boxContent.classList.add('sp-menu-content');
-    single.appendChild(boxContent);
-
-    let hrefOne = document.createElement('a');
-    hrefOne.setAttribute('href', "#");
-    hrefOne.setAttribute('data-toggle', "modal");
-    hrefOne.setAttribute('data-target', "#storyModalOne");
-    boxContent.append(hrefOne);
+    hrefOne.appendChild(boxContent);
 
     let spName = document.createElement('div');
     spName.className = 'sp-menu-name-price';
-    hrefOne.appendChild(spName);
+    boxContent.appendChild(spName);
 
     let spNameH = document.createElement('h3');
     spNameH.textContent = i.name;
@@ -42,15 +42,13 @@ for (let i of products) {
     let spNameSpan = document.createElement('span');
     spNameSpan.className = "color-primary";
     spNameSpan.textContent = "$" + i.price;
-
     spName.append(spNameH, spNameSpan)
 
     let boxDiskr = document.createElement('p');
     boxDiskr.textContent = langArr[i.discr][lang];
 
-    let spanBox = document.createElement('span')/* этот момент посмотреть */
+    let spanBox = document.createElement('span')
     spanBox.textContent = langArr[i.btn][lang];
-
     boxDiskr.append(spanBox);
 
     let spanIng = document.createElement('i');
@@ -58,8 +56,7 @@ for (let i of products) {
     spanIng.setAttribute("aria-hidden", "true");
     spanBox.append(spanIng);
 
-    hrefOne.appendChild(boxDiskr);
-
+    boxContent.appendChild(boxDiskr);
     bigBox.append(box)
 }
 
