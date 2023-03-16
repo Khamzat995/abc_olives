@@ -179,7 +179,7 @@ a:focus {
 /* - 2-2 PADDINGS */
 
 .pt100 {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .pb100 {
@@ -200,7 +200,7 @@ a:focus {
 
 /* - 2-3 MARGINS */
 .mb90 {
-    margin-bottom: 90px;
+    margin-bottom: 40px;
 }
 
 /* - 2-4 BUTTONS */
@@ -761,16 +761,16 @@ a:focus {
 }
 
 /* - 4-2 HERO SLIDER */
-.home_intro_carousel {
-    height: 100vh;
+.home-intro-carousel {
+    height: 100%;
 }
 
-.fullscreen-slider {
+/* .fullscreen-slider {
     height: 100vh;
     min-height: 500px;
     width: 100%;
     display: block;
-}
+} */
 
 .slide-bg-image {
     position: relative;
@@ -792,14 +792,14 @@ a:focus {
     text-align: center;
 }
 
-.fullscreen-slider .owl-pagination {
+/* .fullscreen-slider .owl-pagination {
     position: absolute;
     bottom: 20px;
     left: 0;
     text-align: center;
     width: 100%;
     right: 0;
-}
+} */
 
 .owl-theme .owl-controls .owl-page span {
     display: none;

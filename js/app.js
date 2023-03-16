@@ -90,7 +90,7 @@
             horizontalScrolling: false,
         });
         /******************** 2.5 HERO SLIDER ********************/
-        $(".fullscreen-slider").owlCarousel({
+        /* $(".fullscreen-slider").owlCarousel({
             slideSpeed: 350,
             singleItem: true,
             navigation: false,
@@ -100,7 +100,7 @@
             // time between transitions
             interval: 500,
             transitionStyle: "fade",
-        });
+        }); */
 
 
         /* ===== COUNTERS 1 ===== */
