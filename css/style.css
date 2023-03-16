@@ -1370,6 +1370,11 @@ a.buttons.read-more-button:hover {
 .social-icons ul li a i {
     font-size: x-large;
     margin-top: 5px;
+
+}
+
+.social-icons .fa-color {
+    color: #f0d43a;
 }
 
 .group-one {
@@ -1531,6 +1536,11 @@ a.buttons.read-more-button:hover {
 .single-contact-widget a span {
     font-size: large;
 }
+
+.single-contact-widget .fa-white {
+    color: white;
+}
+
 
 /*  ----------------------------------------------------
 13. FOOTER
