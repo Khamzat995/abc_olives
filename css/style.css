@@ -629,12 +629,12 @@ a:focus {
     background: transparent;
 }
 
-.mobile_menu_btn {
+.mobile-menu-btn {
     border: 1px solid #f0d43a;
     margin-top: 4%;
 }
 
-.mobile_menu_btn span {
+.mobile-menu-btn span {
     background: #f0d43a;
 }
 
@@ -1422,4 +1422,3 @@ a.buttons.read-more-button:hover {
 .lng-footer {
     color: #f0d43a
 }
-
