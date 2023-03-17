@@ -116,6 +116,19 @@
 		margin-right: 4px;
 	}
 
+	.social-yellow ul li a {
+		margin-left: 0px;
+		margin-right: 2px;
+	}
+
+	.social-yellow ul li a i {
+		font-size: x-large;
+	}
+
+
+
+
+
 	/* CONTACT */
 	.single-contact-widget {
 		padding: 20px 20px 20px 50px;
@@ -133,11 +146,14 @@
 		margin-bottom: 20px;
 	}
 
-	/* PAGE HEADER */
-	.page-header {
-		padding-top: 130px;
-		padding-bottom: 100px;
+
+
+	.testimonial-item .post-format {
+		margin-top: -20%;
+
 	}
+
+
 
 }
 
@@ -150,7 +166,6 @@
 	.video-container .container {
 		margin-top: 20%;
 	}
-
 
 	/* GENERAL */
 	h1 {
@@ -178,7 +193,7 @@
 	}
 
 	p {
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	.text-center-xs {
@@ -247,13 +262,6 @@
 		text-align: center;
 	}
 
-
-
-	/* .fullscreen-slider.owl-theme .owl-controls {
-		position: absolute;
-		top: 60%;
-	} */
-
 	/* SPECIAL OFFER */
 	.single-offer {
 		margin-top: 20px;
@@ -273,29 +281,17 @@
 		font-size: 26px;
 	}
 
-	/* BLOG */
-	.post-title h3 {
-		font-size: 20px;
-	}
 
-	/* Blog horizontal */
-	.horizontal-blog .pl-0 {
-		padding-right: 0px;
-	}
+
+
 
 	.post-format {
 		font-size: 22px;
 		padding: 10px;
 	}
 
-	.horizontal-blog h2 {
-		font-size: 22px;
-	}
 
-	.blog-list-content {
-		padding-left: 15px;
-		padding-right: 15px;
-	}
+
 
 	/* CHEF */
 	.single-chef {
@@ -367,38 +363,20 @@
 		top: 30px;
 	}
 
-	/* PAGE HEADER */
-	.page-header {
-		padding-top: 130px;
-		padding-bottom: 100px;
-	}
+
 
 	/* SINGLE BLOG */
-	.blog-comments,
-	.comment-post {
-		padding: 40px 15px;
-	}
-
-	.comment-post button {
-		margin-top: 0px;
-	}
-
-	.in-reply {
-		padding-left: 25px;
-	}
-
-	.in-reply.in-reply-2 {
-		padding-left: 35px;
-	}
-
-	.single-sidebar {
-		margin-top: 50px;
-		margin-bottom: 0px;
-	}
 
 	.selcls {
 		margin-left: 15px;
 	}
+
+	.testimonial-item .post-format {
+		margin-top: -20%;
+
+	}
+
+
 }
 
 /* Wide Mobile Layout: 480px. */
@@ -406,6 +384,13 @@
 	.video-container video {
 		min-width: 480px;
 		max-width: 767px;
+	}
+
+	.testimonial-item .post-format {
+		font-size: 36px;
+		padding: 15px;
+		margin-top: -20%;
+
 	}
 
 
@@ -430,6 +415,13 @@
 	.home-intro-carousel {
 		height: 500px;
 	}
+
+	.testimonial-item .post-format {
+		font-size: 32px;
+		padding: 10px;
+		margin-top: -180px;
+
+	}
 }
 
 @media only screen and (max-width: 480px) {
@@ -439,5 +431,17 @@
 
 	.home-intro-carousel {
 		height: 520px;
+	}
+
+	.testimonial-item .post-format {
+		margin-top: -40%;
+
+	}
+}
+
+@media only screen and (max-width: 376px) {
+	.testimonial-item .post-format {
+		margin-top: -50%;
+
 	}
 }

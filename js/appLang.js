@@ -481,9 +481,9 @@ const langArr = {
         "en": "The best olive fruits grow",
     },
     "testimonial-p1": {
-        "ru": "Урожай оливок собирается «мягким ударом», что позволяет сохранить целостность плода и все его полезные свойства. Отжим производится в течение 24 часов после сбора плодов для лучшего качества получаемого масла.",
-        "tr": "Zeytinler, meyvenin bütünlüğünü ve tüm faydalı özelliklerini korumanıza izin veren «yumuşak bir darbe» ile hasat edilir. Ekstraksiyon, elde edilen yağın en iyi kalitesi için meyvelerin toplanmasından sonraki 24 saat içinde gerçekleştirilir.",
-        "en": "Olives are harvested with a «soft blow», which allows you to preserve the integrity of the fruit and all its beneficial properties. The extraction is carried out within 24 hours after harvesting the fruits for the best quality of the resulting oil.",
+        "ru": "Урожай оливок собирается «мягким ударом», что позволяет сохранить целостность плода и все его полезные свойства. Отжим производится в течение 24 часов после сбора плодов для лучшего качества получаемого масла...",
+        "tr": "Zeytinler, meyvenin bütünlüğünü ve tüm faydalı özelliklerini korumanıza izin veren «yumuşak bir darbe» ile hasat edilir. Ekstraksiyon, elde edilen yağın en iyi kalitesi için meyvelerin toplanmasından sonraki 24 saat içinde gerçekleştirilir...",
+        "en": "Olives are harvested with a «soft blow», which allows you to preserve the integrity of the fruit and all its beneficial properties. The extraction is carried out within 24 hours after harvesting the fruits for the best quality of the resulting oil...",
     },
     "testimonial-h32": {
         "ru": "Оливковые рощи",
@@ -496,9 +496,9 @@ const langArr = {
         "en": "Caressed by the sun and fresh wind",
     },
     "testimonial-p2": {
-        "ru": "Плоды и масла имеют несравненный вкус и аромат. А многолетние исследования и инновации	компании создают насыщенные и нежные вкусы золотого богатства Турции.",
-        "tr": "Meyveler ve yağlar eşsiz bir tat ve aromaya sahiptir. Ve şirketin uzun vadeli araştırma ve yenilikçiliği, Türkiye'nin altın zenginliğinin zengin ve hassas tatlarını yaratıyor.",
-        "en": "Fruits and oils have an incomparable taste and aroma. And the long-term research and innovation of the company creates rich and delicate tastes of the golden wealth of Turkey.",
+        "ru": "Плоды и масла имеют несравненный вкус и аромат. А многолетние исследования и инновации	компании создают насыщенные и нежные вкусы золотого богатства Турции...",
+        "tr": "Meyveler ve yağlar eşsiz bir tat ve aromaya sahiptir. Ve şirketin uzun vadeli araştırma ve yenilikçiliği, Türkiye'nin altın zenginliğinin zengin ve hassas tatlarını yaratıyor...",
+        "en": "Fruits and oils have an incomparable taste and aroma. And the long-term research and innovation of the company creates rich and delicate tastes of the golden wealth of Turkey...",
     },
     "testimonial-h33": {
         "ru": "Самый качественный продукт",
@@ -511,9 +511,9 @@ const langArr = {
         "en": "This is an achievement - many years of work",
     },
     "testimonial-p3": {
-        "ru": "Мы сотрудничаем со многими странами мира и предлагает линейку не только оливковых масел, но и других, самых полезных и востребованных в мире здорового питания и изысканной гастрономии.",
-        "tr": "Dünyanın birçok ülkesiyle işbirliği yapıyoruz ve sadece zeytinyağı değil, aynı zamanda sağlıklı beslenme ve gurme gastronomi dünyasında en faydalı ve talep gören diğer zeytinyağı çeşitlerini sunuyoruz.",
-        "en": "We cooperate with many countries of the world and offer a line of not only olive oils, but also others, the most useful and in demand in the world of healthy eating and gourmet gastronomy.",
+        "ru": "Мы сотрудничаем со многими странами мира и предлагает линейку не только оливковых масел, но и других, самых полезных и востребованных в мире здорового питания и изысканной гастрономии...",
+        "tr": "Dünyanın birçok ülkesiyle işbirliği yapıyoruz ve sadece zeytinyağı değil, aynı zamanda sağlıklı beslenme ve gurme gastronomi dünyasında en faydalı ve talep gören diğer zeytinyağı çeşitlerini sunuyoruz...",
+        "en": "We cooperate with many countries of the world and offer a line of not only olive oils, but also others, the most useful and in demand in the world of healthy eating and gourmet gastronomy...",
     },
     "chefs-p": {
         "ru": "Онлайн-заказы",
