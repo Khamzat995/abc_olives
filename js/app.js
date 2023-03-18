@@ -235,3 +235,17 @@
     });
 
 })(jQuery);
+
+let elemOne = document.getElementById("videoOne");
+let elemTwo = document.getElementById("videoTwo");
+let elemThree = document.getElementById("videoThree");
+
+function pauseOne() {
+    elemOne.pause();
+}
+function pauseTwo() {
+    elemTwo.pause();
+}
+function pauseThree() {
+    elemThree.pause();
+}

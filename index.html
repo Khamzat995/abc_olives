@@ -104,8 +104,8 @@
 			<video src="video/olives_720.mp4" autoplay loop muted playsinline></video>
 			<div class="container">
 				<p class="intro fadeIn animated wow" data-wow-delay=".2s">
-					Premium from Turkey</p>
-				<h1 class="intro fadeIn animated wow lng-slider-two" data-wow-delay=".2s">
+					Premium olives from Turkey</p>
+				<!-- <h1 class="intro fadeIn animated wow lng-slider-two" data-wow-delay=".2s"> -->
 				</h1>
 				<a href="#menu" class="buttons scroll zoomIn animated wow lng-slider-btn" data-wow-delay=".3s"></a>
 			</div>
@@ -244,8 +244,10 @@
 	<!-- ========== Смотреть прайс-лист ========== -->
 	<section class="pt100 pb100 special-menu bg-dark" id="prise-list"
 		style="background-image: url('img/slider_2.webp'); ">
-		<a href="#" class="buttons btn-full animated zoomIn wow lng-price-btn" data-wow-delay=".2s" data-toggle="modal"
+		<a href="#" class="buttons zoomIn animated wow lng-price-btn" data-wow-delay=".2s" data-toggle="modal"
 			data-target="#storyModalSeven"></a>
+		<!-- <a href="#" class="buttons btn-full animated zoomIn wow lng-price-btn" data-wow-delay=".2s" data-toggle="modal"
+			data-target="#storyModalSeven"></a> -->
 	</section>
 	<!-- ========== Смотреть прайс-лист КОНЕЦ ========== -->
 	<!-- storyModalOne -->
@@ -736,18 +738,18 @@
 	<!-- Modal storyModalTestimonialOne -->
 	<div class="modal fade" id="storyModalTestimonialOne" tabindex="-1" role="dialog">
 		<div class="modal-dialog" role="document">
-			<div class="modal-content">
+			<div class="modal-content ">
 				<div class="modal-header bg-dark" style="display: flex; align-items: flex-start;">
 					<div class="logo" style="display: flex; ">
 						<p>Olives Turkey</p>
 						<span>®</span>
 					</div>
-					<button type="button" class="close" style="margin-left: auto;" data-dismiss="modal"
-						aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<button type="button" onclick="pauseOne()" class="close" style="margin-left: auto;"
+						data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				</div>
 				<div class="modal-body bg-dark">
-					<video src="video/Olive_sbor_3.mp4" width="100%" height="auto" preload="auto" controls
-						playsinline></video>
+					<video id="videoOne" src="video/Olive_sbor_3.mp4" type="video/mp4" width="100%" height="auto"
+						preload="auto" controls playsinline></video>
 					<h3 class="lng-testimonial-h33" style="margin: 10px; color: #f0d43a"></h3>
 					<p class="lng-modal-p1"></p>
 					<blockquote class="lng-modal-p2"></blockquote>
@@ -765,12 +767,12 @@
 						<p>Olives Turkey</p>
 						<span>®</span>
 					</div>
-					<button type="button" class="close" style="margin-left: auto;" data-dismiss="modal"
-						aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<button type="button" onclick="pauseTwo()" class="close" style="margin-left: auto;"
+						data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				</div>
 				<div class="modal-body bg-dark">
-					<video src="video/Olive_sbor_2.mp4" width="100%" height="auto" preload="auto" controls
-						playsinline></video>
+					<video id="videoTwo" src="video/Olive_sbor_2.mp4" type="video/mp4" width="100%" height="auto"
+						preload="auto" controls playsinline></video>
 					<h3 class="lng-testimonial-h32" style="margin: 10px; color: #f0d43a"></h3>
 					<p class="lng-modal-p1"></p>
 					<blockquote class="lng-modal-p2"></blockquote>
@@ -788,12 +790,12 @@
 						<p>Olives Turkey</p>
 						<span>®</span>
 					</div>
-					<button type="button" class="close" style="margin-left: auto;" data-dismiss="modal"
-						aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<button type="button" onclick=" pauseThree()" class="close" style="margin-left: auto;"
+						data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 				</div>
 				<div class="modal-body bg-dark">
-					<video src="video/Olive_sbor_11.mp4" width="100%" height="auto" preload="auto" controls
-						playsinline></video>
+					<video id="videoThree" src="video/Olive_sbor_1.mp4" type="video/mp4" width="100%" height="auto"
+						preload="auto" controls playsinline></video>
 					<h3 class="lng-testimonial-h31" style="margin: 10px; color: #f0d43a"></h3>
 					<p class="lng-modal-p1"></p>
 					<blockquote class="lng-modal-p2"></blockquote>

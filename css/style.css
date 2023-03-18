@@ -506,6 +506,10 @@ a:focus {
     }
 }
 
+#prise-list {
+    text-align: center;
+}
+
 /* ЗВОНОК АНИМАЦИЯ ФИНИШ*/
 
 #anima-text {
