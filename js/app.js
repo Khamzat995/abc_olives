@@ -240,12 +240,18 @@ let elemOne = document.getElementById("videoOne");
 let elemTwo = document.getElementById("videoTwo");
 let elemThree = document.getElementById("videoThree");
 
-function pauseOne() {
+window.addEventListener('click', function () {
     elemOne.pause();
-}
-function pauseTwo() {
+    elemTwo.pause();
+    elemThree.pause();
+})
+
+/* function pauseOne() {
+    elemOne.pause();
+} */
+/* function pauseTwo() {
     elemTwo.pause();
 }
 function pauseThree() {
     elemThree.pause();
-}
+} */
